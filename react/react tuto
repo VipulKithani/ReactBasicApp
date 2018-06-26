@@ -1,0 +1,42 @@
+React is a library for user interfaces
+composition model
+UDF
+java script
+
+composition:COmponents
+
+slider
+Navbar
+Router
+Header
+Carousel
+Chart
+Map
+Avtar
+Datepicker
+
+example:
+Container
+	navbar/
+	header/
+	datepicker
+		Calendar
+	datepicker/
+container/
+
+unidirectional data flow
+JQuery
+EventHandler -> State
+		DOM
+React is responsible for rendering UI
+think about State And UI
+
+Explicit Mutations
+State is resp for UI
+call state
+	and handle every state:
+React is taking care of everything that updates
+
+we will learn state
+React render them im react native in diff enviroments
+ReactDOM Diff platform and engine

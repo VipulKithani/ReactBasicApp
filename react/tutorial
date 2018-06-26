@@ -1,0 +1,18 @@
+function Badge (props) {
+  return (
+    <div>
+      <img src={props.img} />
+      <h1>Name:{props.name} </h1>
+      <h3>username:{props.username} </h3>
+    </div>
+  )
+}
+
+ReactDOM.render(
+  <Badge 
+    name='Vipul Kithani'
+    username='vipulkithani'
+    img='https://pbs.twimg.com/profile_images/977074107375333376/ZOMx8GjB_400x400.jpg'
+  />,
+  document.getElementById('app')
+);
